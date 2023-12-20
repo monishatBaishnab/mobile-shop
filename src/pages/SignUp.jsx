@@ -1,5 +1,5 @@
 
-const LoaderPage = () => {
+const SignUp = () => {
     return (
         <div>
             
@@ -7,4 +7,4 @@ const LoaderPage = () => {
     );
 };
 
-export default LoaderPage;
+export default SignUp;
