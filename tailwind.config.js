@@ -7,7 +7,7 @@ module.exports = withMT({
       colors: {
         'primary': '#425A8B',
         'secondery': '#D5DFE4'
-      }
+      },
     },
   },
   plugins: [],

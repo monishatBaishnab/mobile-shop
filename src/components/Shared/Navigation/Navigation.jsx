@@ -12,7 +12,7 @@ const Navigation = () => {
                 <div>
                     <IconButton onClick={() => setActive(!active)} variant="text" ripple={false} className="hover:bg-transparent focus:bg-transparent active:bg-transparent text-primary"><FaCartShopping className="text-2xl" /></IconButton>
                 </div>
-                <div className={`absolute w-full right-0 sm:right-10 sm:w-80 p-5 border border-secondery bg-white transition-all duration-300 ${active ? 'top-20 opacity-100 visible' : 'top-[70px] invisible opacity-0'}`}>
+                <div className={`absolute z-50 w-full right-0 sm:right-10 sm:w-80 p-5 border border-secondery bg-white transition-all duration-300 ${active ? 'top-20 opacity-100 visible' : 'top-[70px] invisible opacity-0'}`}>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, temporibus!
                 </div>
             </div>
